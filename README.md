@@ -52,8 +52,9 @@ cd SISTEMA-DE-GESTION-DE-CLIMA
 
 ## 3️⃣ Crear entorno virtual
 python -m venv venv
----Activar entorno virtual 
-Windows 
+
+--- Activar entorno virtual 
+-Windows 
 venv\Scripts\activate 
 Linux / Mac 
 source venv/bin/activate
