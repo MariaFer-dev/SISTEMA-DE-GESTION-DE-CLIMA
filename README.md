@@ -43,5 +43,33 @@ Este proyecto fue desarrollado como práctica de:
 
 ## 1️⃣ Clonar el repositorio
 
-```bash
+-- bash
 git clone https://github.com/MariaFer-dev/SISTEMA-DE-GESTION-DE-CLIMA.git
+
+## 2️⃣ Entrar al proyecto 
+cd SISTEMA-DE-GESTION-DE-CLIMA
+
+
+## 3️⃣ Crear entorno virtual
+python -m venv venv
+---Activar entorno virtual 
+Windows 
+venv\Scripts\activate 
+Linux / Mac 
+source venv/bin/activate
+
+
+## 4️⃣ Instalar dependencias
+pip install -r requirements.txt
+
+
+##🔑 Variables de Entorno 
+Crear un archivo .env con 
+la siguiente configuración: 
+WEATHER_API_KEY=tu_api_key 
+SECRET_KEY=tu_clave_secreta
+Las claves de API permiten autenticar las solicitudes hacia el servicio meteorológico externo.
+ 
+
+##▶️ Ejecutar el Proyecto
+python run.py
