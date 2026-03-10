@@ -64,13 +64,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-##🔑 Variables de Entorno 
+## 🔑 Variables de Entorno 
 Crear un archivo .env con 
 la siguiente configuración: 
 WEATHER_API_KEY=tu_api_key 
 SECRET_KEY=tu_clave_secreta
 Las claves de API permiten autenticar las solicitudes hacia el servicio meteorológico externo.
  
-
-##▶️ Ejecutar el Proyecto
+--- 
+# ▶️ Ejecutar el Proyecto
 python run.py
